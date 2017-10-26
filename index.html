@@ -380,10 +380,12 @@
 <!-- Fullpage.js (landing script) — https://github.com/alvarotrigo/fullPage.js -->
 <script src="node_modules/fullpage.js/dist/jquery.fullpage.min.js"></script>
 <script>
-    $('#main').fullpage({
-        //autoScrolling: false,
-        verticalCentered: false,
-    });
+	if (window.innerWidth >= 768) {
+	    $('#main').fullpage({
+	        //autoScrolling: false,
+	        verticalCentered: false,
+	    });
+	}
 </script>
 <!-- Teather -->
 <script src="node_modules/tether/dist/js/tether.min.js"></script>
