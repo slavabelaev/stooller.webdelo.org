@@ -1,0 +1,9 @@
+#google-services iframe {
+    min-height: 320px;
+}
+
+@media (min-width: 768px) {
+    #google-services .container>.row {
+        width: 100%;
+    }
+}

@@ -1,0 +1,12 @@
+#section-header {
+    background-image: url(../../images/sections/section-header/stooller.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: 10000;
+}
+
+@media (max-width: 767px) {
+    #section-header {
+        min-height: 320px;
+    }
+}

@@ -1,0 +1,83 @@
+ol.list-of-numeric-items {
+    counter-reset: myCounter;
+    padding-left: 60px;
+}
+ol.list-of-numeric-items>li {
+    list-style: none;
+    position: relative;
+    margin-bottom: 12px;
+}
+ol.list-of-numeric-items>li:before {
+    position: absolute;
+    left: -55px;
+    counter-increment: myCounter;
+    content: "0" counter(myCounter);
+    color: rgba(0,0,0, .6);
+    font-weight: bold;
+    font-size: 1.4em;
+    border-right: rgba(0,0,0, .6) 3px solid;
+    display: inline-block;
+    text-align: center;
+    padding-right: 12px;
+}
+ol.list-of-numeric-items>li.active:before {
+    color: #222;
+    border-right-color: rgba(0,0,0, .6);
+}
+ol.list-of-numeric-items>li.active .list-item-heading {
+    color: #F47C79;
+}
+ol.list-of-numeric-items .list-item-heading {
+    font-weight: 500;
+    font-size: 1.3em;
+    margin-bottom: 12px;
+}
+
+.stooller-logo {
+    font-weight: bold;
+    color: #333;
+}
+
+.container {
+    max-width: 1260px;
+}
+
+.bg-orange {
+    background-color: #F46B45;
+}
+.bg-green {
+    background-color: #73CF8D;
+}
+
+hr {
+    border-top-color: rgba(0,0,0,.05);
+}
+
+.btn-outline-primary,
+.btn-outline-primary:hover {
+    border-color: #6772E5;
+    color: #6772E5;
+}
+.btn-outline-primary.btn-lg {
+    border-radius: 3px;
+}
+
+header .navbar-brand {
+    margin-right: 24px;
+}
+
+@media (min-width: 768px) {
+    .section {
+        height: initial!important;
+        min-height: 100vh;
+    }
+
+    h2, .h2 {
+        font-size: 36px;
+    }
+}
+@media (max-width: 768px) {
+    header .navbar .form-inline {
+        display: none;
+    }
+}

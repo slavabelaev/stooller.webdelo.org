@@ -1,0 +1,40 @@
+<svg width="32" height="40" viewBox="0 0 26 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>list</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(82 3342)">
+<g id="list">
+<g id="Shape">
+<use xlink:href="#path0_fill" transform="translate(-81.7292 -3342)" fill="#F1A7B3"/>
+</g>
+<g id="Shape">
+<use xlink:href="#path1_fill" transform="translate(-77.7652 -3333.36)" fill="#F1A7B3"/>
+</g>
+<g id="Shape">
+<use xlink:href="#path1_fill" transform="translate(-77.7652 -3328.35)" fill="#F1A7B3"/>
+</g>
+<g id="Shape">
+<use xlink:href="#path1_fill" transform="translate(-77.7652 -3323.34)" fill="#F1A7B3"/>
+</g>
+<g id="Shape">
+<use xlink:href="#path1_fill" transform="translate(-77.7652 -3318.33)" fill="#F1A7B3"/>
+</g>
+<g id="Rectangle-path">
+<use xlink:href="#path2_fill" transform="translate(-72.3091 -3332.08)" fill="#F1A7B3"/>
+</g>
+<g id="Rectangle-path">
+<use xlink:href="#path2_fill" transform="translate(-72.3091 -3327.07)" fill="#F1A7B3"/>
+</g>
+<g id="Rectangle-path">
+<use xlink:href="#path2_fill" transform="translate(-72.3091 -3322.06)" fill="#F1A7B3"/>
+</g>
+<g id="Rectangle-path">
+<use xlink:href="#path2_fill" transform="translate(-72.3091 -3317.05)" fill="#F1A7B3"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 17.5576 0L 0 0L 0 33L 25.4583 33L 25.4583 8.02222L 17.5576 0ZM 17.875 1.87769L 23.6091 7.69995L 17.875 7.69995L 17.875 1.87769ZM 1.08334 1.1001L 1.08334 31.9001L 24.375 31.9001L 24.375 8.80005L 16.7917 8.80005L 16.7917 1.1001L 1.08334 1.1001Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 1.82202C 0 0.817139 0.799431 0 1.78246 0C 2.76548 0 3.56491 0.817139 3.56491 1.82202C 3.56491 2.8269 2.76548 3.64404 1.78246 3.64404C 0.799431 3.64404 0 2.8269 0 1.82202ZM 0.891228 1.82227C 0.891228 2.32471 1.29094 2.73315 1.78246 2.73315C 2.27396 2.73315 2.67368 2.32471 2.67368 1.82227C 2.67368 1.31982 2.27396 0.911133 1.78246 0.911133C 1.29094 0.911133 0.891228 1.31982 0.891228 1.82227Z"/>
+<path id="path2_fill" d="M 0 0L 11.586 0L 11.586 0.911032L 0 0.911032L 0 0Z"/>
+</defs>
+</svg>

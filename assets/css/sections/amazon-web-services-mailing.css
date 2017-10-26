@@ -1,0 +1,29 @@
+#amazon-web-services-mailing {
+    position: relative;
+    overflow: hidden;
+}
+#amazon-web-services-mailing .bg-green {
+    background-image: linear-gradient(45deg, #64A944, #73CF8D 45%, #73CF8D 45%)
+}
+
+@media (min-width: 768px) {
+    #amazon-web-services-mailing {
+        background-image: linear-gradient(to right, transparent 50%, #73CF8D 50%);
+    }
+}
+@media (min-width: 1200px) {
+    #amazon-web-services-mailing:after {
+        content: "";
+        display: block;
+        position: absolute;
+        right: -200px;
+        width: 550px;
+        height: 455px;
+        bottom: 0;
+        top: -150px;
+        margin: auto;
+        background-image: url(../../images/sections/amazon-web-services-mailing/email.svg);
+        background-size: 100%;
+        transform: rotate(-15deg);
+    }
+}

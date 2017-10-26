@@ -1,0 +1,14 @@
+#amazon-web-services .bg-orange {
+    background:
+            url(../../images/sections/amazon-web-services/lines.svg) repeat-x center center,
+            linear-gradient(45deg, #EEA849, #F46B45 45%, #F46B45 45%)
+}
+
+@media (min-width: 768px) {
+    #amazon-web-services {
+        background:
+                url(../../images/sections/amazon-web-services/lines.svg) repeat-x center center,
+                linear-gradient(to right, transparent 50%, #F46B45 50%);
+
+    }
+}

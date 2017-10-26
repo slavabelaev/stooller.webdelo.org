@@ -1,0 +1,10 @@
+#about--tablet-image {
+    background-image: url(../../images/sections/about/smartphone.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 380px;
+}

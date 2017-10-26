@@ -1,0 +1,13 @@
+#twilio-sms-alerts--smartphone {
+    display: block;
+    height: 100%;
+    min-height: 420px;
+    max-width: 420px;
+    background-image: url(../../images/sections/twilio-sms-alerts/IPhone_7_Jet_Black.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+}
+#twilio-sms-alerts--schema {
+    max-height: 50vh;
+}

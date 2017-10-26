@@ -1,0 +1,12 @@
+#intelligent-moving .figure {
+    background-color: #FFFAE3
+}
+
+@media (min-width: 992px) {
+    #intelligent-moving .container {
+        background-image: url(../../images/sections/intelligent-moving/macbook.png);
+        background-position: bottom left;
+        background-size: auto 90%;
+        background-repeat: no-repeat;
+    }
+}

@@ -1,0 +1,90 @@
+<svg width="34" height="34" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>server</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(7 4085)">
+<g id="server">
+<g id="Shape">
+<use xlink:href="#path0_fill" transform="translate(11.3322 -4062.05)" fill="#ED93A3"/>
+</g>
+<g id="Shape">
+<use xlink:href="#path1_fill" transform="translate(-3.6 -4081.32)" fill="#ED93A3"/>
+</g>
+<g id="Oval">
+<use xlink:href="#path2_fill" transform="translate(20.7667 -4080.18)" fill="#ED93A3"/>
+</g>
+<g id="Oval">
+<use xlink:href="#path2_fill" transform="translate(18.5 -4080.18)" fill="#ED93A3"/>
+</g>
+<g id="Oval">
+<use xlink:href="#path2_fill" transform="translate(21.9 -4078.48)" fill="#ED93A3"/>
+</g>
+<g id="Oval">
+<use xlink:href="#path2_fill" transform="translate(19.6333 -4078.48)" fill="#ED93A3"/>
+</g>
+<g id="Oval">
+<use xlink:href="#path2_fill" transform="translate(16.2333 -4080.18)" fill="#ED93A3"/>
+</g>
+<g id="Oval">
+<use xlink:href="#path2_fill" transform="translate(17.3667 -4078.48)" fill="#ED93A3"/>
+</g>
+<g id="Oval">
+<use xlink:href="#path2_fill" transform="translate(13.9667 -4080.18)" fill="#ED93A3"/>
+</g>
+<g id="Oval">
+<use xlink:href="#path2_fill" transform="translate(15.1 -4078.48)" fill="#ED93A3"/>
+</g>
+<g id="Oval">
+<use xlink:href="#path2_fill" transform="translate(11.7 -4080.18)" fill="#ED93A3"/>
+</g>
+<g id="Oval">
+<use xlink:href="#path2_fill" transform="translate(12.8333 -4078.48)" fill="#ED93A3"/>
+</g>
+<g id="Shape">
+<use xlink:href="#path3_fill" transform="translate(-7 -4084.72)" fill="#ED93A3"/>
+</g>
+<g id="Shape">
+<use xlink:href="#path4_fill" transform="translate(-3.6 -4070.55)" fill="#ED93A3"/>
+</g>
+<g id="Oval">
+<use xlink:href="#path2_fill" transform="translate(20.7667 -4069.42)" fill="#ED93A3"/>
+</g>
+<g id="Oval">
+<use xlink:href="#path2_fill" transform="translate(18.5 -4069.42)" fill="#ED93A3"/>
+</g>
+<g id="Oval">
+<use xlink:href="#path2_fill" transform="translate(21.9 -4067.72)" fill="#ED93A3"/>
+</g>
+<g id="Oval">
+<use xlink:href="#path2_fill" transform="translate(19.6333 -4067.72)" fill="#ED93A3"/>
+</g>
+<g id="Oval">
+<use xlink:href="#path2_fill" transform="translate(16.2333 -4069.42)" fill="#ED93A3"/>
+</g>
+<g id="Oval">
+<use xlink:href="#path2_fill" transform="translate(17.3667 -4067.72)" fill="#ED93A3"/>
+</g>
+<g id="Oval">
+<use xlink:href="#path2_fill" transform="translate(13.9667 -4069.42)" fill="#ED93A3"/>
+</g>
+<g id="Oval">
+<use xlink:href="#path2_fill" transform="translate(15.1 -4067.72)" fill="#ED93A3"/>
+</g>
+<g id="Oval">
+<use xlink:href="#path2_fill" transform="translate(11.7 -4069.42)" fill="#ED93A3"/>
+</g>
+<g id="Oval">
+<use xlink:href="#path2_fill" transform="translate(12.8333 -4067.72)" fill="#ED93A3"/>
+</g>
+<g id="Shape">
+<use xlink:href="#path4_fill" transform="translate(-3.6 -4059.78)" fill="#ED93A3"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 8.80883 0C 11.1327 0 13.0724 1.82739 13.3155 4.15479C 14.6523 4.61157 15.5828 5.89966 15.5833 7.3728C 15.5833 9.24414 14.0964 10.7666 12.2689 10.7666L 9.82657 10.7666C 9.7903 10.7666 9.75517 10.7644 9.72003 10.7622C 9.69 10.7644 9.65713 10.7666 9.62313 10.7666L 3.51787 10.7666C 1.57817 10.7666 0 9.15063 0 7.16333C 0 5.88208 0.685101 4.68628 1.76573 4.04541C 2.1539 2.77832 3.3218 1.88477 4.63647 1.88477C 4.80477 1.88477 4.97193 1.89893 5.13683 1.92773C 5.98457 0.72876 7.3559 0 8.80883 0ZM 9.8022 9.63159L 12.2683 9.6333C 13.4708 9.6333 14.4494 8.6189 14.4489 7.37231C 14.4489 6.28589 13.6992 5.35205 12.6661 5.15161L 12.2134 5.06372L 12.2071 4.60303C 12.1828 2.68994 10.6584 1.1333 8.80827 1.1333C 7.599 1.1333 6.50647 1.77808 5.8854 2.85815L 5.6542 3.26123L 5.2139 3.11328C 5.02577 3.05029 4.8314 3.01807 4.6359 3.01807C 3.76323 3.01807 2.9937 3.65894 2.80613 4.54297L 2.74833 4.81201L 2.50183 4.93335C 1.66997 5.34424 1.1322 6.21973 1.1322 7.16309C 1.1322 8.5249 2.20207 9.6333 3.51673 9.6333L 9.70587 9.62817L 9.8022 9.63159Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 2.55005C 0 1.14404 1.1441 0 2.55 0C 3.9559 0 5.1 1.14404 5.1 2.55005C 5.1 3.95581 3.9559 5.1001 2.55 5.1001C 1.1441 5.1001 0 3.95581 0 2.55005ZM 1.13333 2.55005C 1.13333 3.3313 1.76857 3.96655 2.55 3.96655C 3.33143 3.96655 3.96667 3.3313 3.96667 2.55005C 3.96667 1.76855 3.33143 1.1333 2.55 1.1333C 1.76857 1.1333 1.13333 1.76855 1.13333 2.55005Z"/>
+<path id="path2_fill" d="M 0.566667 1.13333C 0.879628 1.13333 1.13333 0.879628 1.13333 0.566667C 1.13333 0.253705 0.879628 0 0.566667 0C 0.253705 0 0 0.253705 0 0.566667C 0 0.879628 0.253705 1.13333 0.566667 1.13333Z"/>
+<path id="path3_fill" fill-rule="evenodd" d="M 34 2.61108L 34 9.28882C 34 10.1206 33.6016 10.8545 32.9925 11.3333C 33.6011 11.8115 33.9994 12.5454 33.9994 13.3779L 33.9994 21.5334L 32.8661 21.5334L 32.8661 13.3779C 32.8661 12.563 32.2031 11.8999 31.3882 11.8999L 2.6112 11.8999C 1.79633 11.8999 1.13333 12.563 1.13333 13.3779L 1.13333 20.0554C 1.13333 20.8704 1.79633 21.5334 2.6112 21.5334L 21.5333 21.5334L 21.5333 22.6667L 2.6112 22.6667C 1.79633 22.6667 1.13333 23.3296 1.13333 24.1445L 1.13333 30.822C 1.13333 31.637 1.79633 32.3 2.6112 32.3L 15.8667 32.3L 15.8667 33.4333L 2.6112 33.4333C 1.1713 33.4333 0 32.262 0 30.822L 0 24.1445C 0 23.3127 0.398367 22.5789 1.00697 22.1001C 0.398367 21.6218 0 20.8879 0 20.0554L 0 13.3779C 0 12.5459 0.398367 11.8123 1.00697 11.3333C 0.398367 10.855 0 10.1213 0 9.28882L 0 2.61108C 0 1.17139 1.1713 0 2.6112 0L 31.3888 0C 32.8287 0 34 1.17139 34 2.61108ZM 1.13333 9.28882C 1.13333 10.1035 1.79633 10.7666 2.6112 10.7666L 31.3888 10.7666C 32.2037 10.7666 32.8667 10.1035 32.8667 9.28882L 32.8667 2.61108C 32.8667 1.79639 32.2037 1.1333 31.3882 1.1333L 2.6112 1.1333C 1.79633 1.1333 1.13333 1.79639 1.13333 2.61108L 1.13333 9.28882Z"/>
+<path id="path4_fill" fill-rule="evenodd" d="M 2.55 5.1001C 1.1441 5.1001 0 3.95581 0 2.55005C 0 1.14404 1.1441 0 2.55 0C 3.9559 0 5.1 1.14404 5.1 2.55005C 5.1 3.95581 3.9559 5.1001 2.55 5.1001ZM 2.55 3.96655C 3.33143 3.96655 3.96667 3.3313 3.96667 2.55005C 3.96667 1.76855 3.33143 1.1333 2.55 1.1333C 1.76857 1.1333 1.13333 1.76855 1.13333 2.55005C 1.13333 3.3313 1.76857 3.96655 2.55 3.96655Z"/>
+</defs>
+</svg>
