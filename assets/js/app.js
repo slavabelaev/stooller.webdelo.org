@@ -1,3 +1,7 @@
-/**
- * Created by dmitricercel on 10/31/17.
- */
+if (window.innerWidth >= 768) {
+    $('#main').fullpage({
+        autoScrolling: true,
+        verticalCentered: false,
+        fitToSection: true
+    });
+}
