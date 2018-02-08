@@ -5,6 +5,36 @@
     z-index: 10000;
 }
 
+#header .btn,
+#header .navbar-brand,
+#header .stooller-logo,
+#header .navbar-brand>img {
+    transition: .7s;
+}
+
+#header .navbar-brand {
+    border-right: 1px solid #979797;
+    padding: 0;
+    padding-right: 28px;
+}
+.fp-viewing-url-section-header #header .navbar-brand {
+    border-color: #fff;
+}
+.fp-viewing-url-section-header #header .navbar-brand>img {
+    filter: brightness(0%);
+}
+.fp-viewing-url-section-header #header .navbar-brand>img {
+    filter: brightness(500%);
+}
+.fp-viewing-url-section-header #header .stooller-logo {
+    color: #fff;
+}
+
+
+.fp-viewing-0 #header .btn {
+    opacity: 0;
+}
+
 @media (max-width: 767px) {
     #section-header {
         min-height: 320px;

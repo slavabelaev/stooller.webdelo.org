@@ -11,3 +11,14 @@
 #twilio-sms-alerts--schema {
     max-height: 50vh;
 }
+
+#twilio-sms-alerts__description {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    #twilio-sms-alerts>.container {
+        padding-top: 70px;
+    }
+}

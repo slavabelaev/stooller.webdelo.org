@@ -1,3 +1,6 @@
 #stripe-payments img {
     max-height: calc(100vh - 240px);
 }
+#stripe-payments>.container {
+    padding-top: 70px;
+}

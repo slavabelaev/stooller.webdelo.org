@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Stooller</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <!-- Bootstrap 4 (UI) — https://github.com/twbs/bootstrap/tree/v4-dev -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!-- Page styles -->
@@ -37,13 +38,13 @@
                 </header>
             </div>
         </section>
-        <section id="about" class="section bg-light d-flex align-items-center align-items-xl-end">
+        <section id="about" class="section bg-light d-flex align-items-center">
             <link rel="stylesheet" href="assets/css/sections/about.css">
-            <div class="container pl-4 pt-4 pr-4">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-1 visible-xl"></div>
                     <div class="col-xl-5">
-                        <h2 class="text-center mb-5">Stooller это:</h2>
+                        <h2>Stooller это:</h2>
                         <ul class="row list-unstyled mb-0">
                             <li class="col-sm-6 col-xl-12">
                                 <figure class="figure d-flex">
@@ -92,54 +93,53 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-1 visible-xl"></div>
-                    <div class="col-md-5 text-left visible-xl">
-                        <picture id="about--tablet-image"></picture>
-                    </div>
                 </div>
             </div>
         </section>
         <section id="project-works" class="section d-flex align-items-center">
             <link rel="stylesheet" href="assets/css/sections/project-works.css">
             <div class="container">
-                <h2 class="text-center p-4">Проект работ</h2>
+                <h2>Проект работ</h2>
                 <div class="row">
-                    <div id="project-works--number-of-files-in-total" class="col-md-6 col-xl-4 p-4">
-                        <h3 class="h4 mb-5">Кол-во файлов в итоге:</h3>
+                    <div id="project-works--number-of-files-in-total" class="col-md-6 col-xl-4">
+                        <h3>Кол-во файлов в итоге:</h3>
                         <ul class="list-unstyled">
                             <li>
-                                <figure class="figure d-flex mb-4"><img
-                                        src="assets/images/sections/project-works/day_of_preliminary_assessment.svg" alt="" class="mr-3">
-                                    <figcaption class="figure-caption d-flex">
-                                        <div class="h1 text-dark mr-3 mb-0">03</div>
+                                <figure class="figure figure--inline">
+                                    <img
+                                        src="assets/images/sections/project-works/day_of_preliminary_assessment.svg" alt="" class="figure-img">
+                                    <figcaption class="figure-caption">
+                                        <div class="figure-caption__counter">03</div>
                                         <div>Дня предварительной <br>оценки</div>
                                     </figcaption>
                                 </figure>
                                 <hr>
                             </li>
                             <li>
-                                <figure class="figure d-flex mb-4 mt-4"><img
-                                        src="assets/images/sections/project-works/development_of_technical_documentation.svg" alt="" class="mr-3">
-                                    <figcaption class="figure-caption d-flex">
-                                        <div class="h1 text-dark mr-3 mb-0">20</div>
+                                <figure class="figure figure--inline">
+                                    <img
+                                        src="assets/images/sections/project-works/development_of_technical_documentation.svg" alt="" class="figure-img">
+                                    <figcaption class="figure-caption">
+                                        <div class="figure-caption__counter">20</div>
                                         <div>Дней разработки <br>технической документации</div>
                                     </figcaption>
                                 </figure>
                                 <hr>
                             </li>
                             <li>
-                                <figure class="figure d-flex mt-4"><img
-                                        src="assets/images/sections/project-works/technical_documentation_pages.svg" alt="" class="mr-3">
-                                    <figcaption class="figure-caption d-flex">
-                                        <div class="h1 text-dark mr-3 mb-0">64</div>
+                                <figure class="figure figure--inline">
+                                    <img
+                                        src="assets/images/sections/project-works/technical_documentation_pages.svg" alt="" class="figure-img">
+                                    <figcaption class="figure-caption">
+                                        <div class="figure-caption__counter">64</div>
                                         <div>Страницы технической документации, диаграмм, схем</div>
                                     </figcaption>
                                 </figure>
                             </li>
                         </ul>
                     </div>
-                    <div id="project-works--total-cost-miscalculation" class="col-md-6 col-xl-8 p-4">
-                        <h3 class="h4 mb-5">Суммарный просчет затрат:</h3>
+                    <div id="project-works--total-cost-miscalculation" class="col-md-6 col-xl-8">
+                        <h3>Суммарный просчет затрат:</h3>
                         <div class="row align-items-center">
                             <div class="col-xl-6">
                                 <img src="assets/images/sections/project-works/total_cost_miscalculation_schema.svg" alt="" class="img-fluid mb-4">
@@ -147,25 +147,27 @@
                             <div class="col-xl-6">
                                 <ul class="list-unstyled mb-5">
                                     <li>
-                                        <figure class="figure d-flex"><img
+                                        <figure class="figure figure--inline">
+                                            <img
                                                 src="assets/images/sections/project-works/man-hours_for_performance.svg" alt="" class="mr-3">
-                                            <figcaption class="figure-caption text-dark d-flex">
-                                                <div class="h1 text-dark mr-3 mb-0">1200</div>
+                                            <figcaption class="figure-caption">
+                                                <div class="figure-caption__counter">1200</div>
                                                 <div>человеко-часов <br>на выполнение</div>
                                             </figcaption>
                                         </figure>
                                     </li>
                                     <li>
-                                        <figure class="figure d-flex"><img
+                                        <figure class="figure figure--inline">
+                                            <img
                                                 src="assets/images/sections/project-works/person-worked.svg" alt="" class="mr-3">
-                                            <figcaption class="figure-caption text-dark d-flex">
-                                                <div class="h1 text-dark mr-3 mb-0">3</div>
+                                            <figcaption class="figure-caption">
+                                                <div class="figure-caption__counter">3</div>
                                                 <div>человека <br>работали</div>
                                             </figcaption>
                                         </figure>
                                     </li>
                                 </ul>
-                                <a href="#" class="text-danger"><img src="assets/images/sections/project-works/play-button.svg" alt="" class="mr-3">Сколько оказалось на деле?</a>
+                                <a href="#" class="link-dashed"><img src="assets/images/sections/project-works/play-button.svg" alt=""><span>Сколько оказалось на деле?</span></a>
                             </div>
                         </div>
                     </div>
@@ -175,17 +177,19 @@
         <section id="intelligent-moving" class="section bg-light d-flex align-items-center">
             <link rel="stylesheet" href="assets/css/sections/intelligent-moving.css">
             <div class="container p-4">
-                <h2 class="text-center mb-5">Интеллектуальный переезд</h2>
+                <h2>Интеллектуальный переезд</h2>
                 <div class="row">
                     <div class="col-md-4 col-lg-6 d-flex align-items-start justify-content-center justify-content-md-end">
-                        <img src="assets/images/sections/intelligent-moving/counter.svg" alt="" class="img-fluid mr-4 mb-4">
+                        <img src="assets/images/sections/intelligent-moving/counter.svg" alt="" class="img-fluid mr-5 mb-5">
                     </div>
                     <div class="col-md-8 col-lg-6">
                         <img src="assets/images/sections/intelligent-moving/5_steps_of_intelligent_move.svg" alt="" class="img-fluid mb-5">
-                        <figure class="figure d-inline-flex p-4"><img
+                        <figure class="figure figure--inline"><img
                                 src="assets/images/sections/intelligent-moving/ordering.svg" alt="" class="mr-3">
-                            <div class="h1 text-dark mr-3 mb-0">10</div>
-                            <figcaption class="figure-caption text-dark">минут на оформление <br>заказа</figcaption>
+                            <figcaption class="figure-caption">
+                                <div class="figure-caption__counter">10</div>
+                                <div>минут на оформление <br>заказа</div>
+                            </figcaption>
                         </figure>
                     </div>
                 </div>
@@ -196,7 +200,7 @@
             <div class="container d-flex align-items-stretch">
                 <div class="row">
                     <div class="col-sm-6 col-xl-4 p-4 align-self-center">
-                        <h2 class="mb-5">Google services</h2>
+                        <h2 class="text-left">Google services</h2>
                         <ol class="list-of-numeric-items">
                             <li class="active">
                                 <div class="list-item-heading">Directions API</div>
@@ -228,13 +232,13 @@
         </section>
         <section id="twilio-sms-alerts" class="section bg-light d-flex align-items-end">
             <link rel="stylesheet" href="assets/css/sections/twilio-sms-alerts.css">
-            <div class="container pl-4 pt-4 pr-4">
-                <h2 class="text-center mb-5">Twillio SMS оповещения</h2>
+            <div class="container">
+                <h2>Twillio SMS оповещения</h2>
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="row mb-5 align-items-center">
+                        <div id="twilio-sms-alerts__description" class="row mb-5 align-items-center">
                             <div class="col-lg-7">
-                                <p class="mb-4"><strong>Перевозчики получают своевременные <br>оповещения о новых и текущих заказах</strong></p>
+                                <p>Перевозчики получают своевременные оповещения о новых и текущих заказах</p>
                             </div>
                             <picture class="col-lg-5 text-center">
                                 <img src="assets/images/sections/twilio-sms-alerts/39_development_options.svg" alt="" class="img-fluid">
@@ -377,8 +381,8 @@
         </section>
         <section id="stripe-payments" class="section d-flex align-items-center">
             <link rel="stylesheet" href="assets/css/sections/stripe-payments.css">
-            <div class="container p-4">
-                <h2 class="text-center mb-5">Stripe платежи. Как это работает</h2>
+            <div class="container">
+                <h2>Stripe платежи. Как это работает</h2>
                 <picture id="stripe-payments-schema" class="d-block text-center">
                     <div class="row d-block d-sm-none">
                         <div class="col-md-12 text-center">
@@ -698,7 +702,7 @@
             <div class="container d-flex align-items-stretch">
                 <div class="row align-items-center">
                     <div class="col-md-6 col-xl-4 p-4">
-                        <h2 class="h1 mb-5">Amazon Web Services</h2>
+                        <h2 class="h1 text-left">Amazon Web Services</h2>
                         <ol class="list-of-numeric-items">
                             <li class="active">
                                 <div class="list-item-heading">Amazon EC2</div>
@@ -717,7 +721,6 @@
                     <div class="col-md-6 col-xl-8 align-self-stretch bg-orange p-4 text-white">
                         <div class="d-flex h-100 align-items-center">
                             <div class="d-flex-container">
-                                <img src="assets/images/sections/amazon-web-services/worldmap.svg" alt="" class="img-fluid mb-4">
                                 <div class="row align-items-center">
                                     <div class="col-xl-3 display-4 mb-4">Чикаго</div>
                                     <div class="col-xl-5">
@@ -739,6 +742,7 @@
                                         </figure>
                                     </div>
                                 </div>
+                                <img src="assets/images/sections/amazon-web-services/worldmap.svg" alt="" class="img-fluid mb-4">
                             </div>
                         </div>
                     </div>
@@ -750,7 +754,7 @@
             <div class="container d-flex align-items-stretch">
                 <div class="row align-items-center">
                     <div class="col-md-6 col-xl-4 p-4">
-                        <h2 class="h1 mb-5">Amazon Web Services</h2>
+                        <h2 class="h1 text-left">Amazon Web Services</h2>
                         <ol class="list-of-numeric-items">
                             <li>
                                 <div class="list-item-heading">Amazon EC2</div>
@@ -777,7 +781,7 @@
                     <div class="col-md-6 col-xl-8 align-self-stretch bg-green text-white p-4">
                         <div class="d-flex align-items-center h-100">
                             <div class="flex-content-container">
-                                <header class="mb-5">
+                                <header>
                                     <h3>Письма дойдут до клиентов</h3>
                                     <p class="lead">Для стартапа большой проблемой <br>становится узнаваемость и большая
                                         <br>часть писем в итоге попадает в спам.</p>
@@ -786,14 +790,14 @@
                                 <ul class="list-unstyled">
                                     <li>
                                         <figure class="figure d-flex">
-                                            <img src="assets/images/sections/amazon-web-services-mailing/time-passing.svg" alt="" class="figure-img mr-3">
+                                            <img src="assets/images/sections/amazon-web-services-mailing/time-passing.svg" alt="" class="figure-img">
                                             <figcaption class="figure-caption text-white">Настройка Amazon SES занимает
                                                 <br>немного времени</figcaption>
                                         </figure>
                                     </li>
                                     <li>
                                         <figure class="figure d-flex">
-                                            <img src="assets/images/sections/amazon-web-services-mailing/server-settings.svg" alt="" class="figure-img mr-3">
+                                            <img src="assets/images/sections/amazon-web-services-mailing/server-settings.svg" alt="" class="figure-img">
                                             <figcaption class="figure-caption text-white">Нет необходимости беспокоится о
                                                 <br>низкоуровневой настройке сервера для <br>рассылки.</figcaption>
                                         </figure>

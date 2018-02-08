@@ -1,12 +1,31 @@
-#intelligent-moving .figure {
-    background-color: #FFFAE3
+#intelligent-moving .figure--inline {
+    background-color: #FFFAE3;
+    padding: 24px 18px;
+    display: inline-flex;
+}
+#intelligent-moving .figure--inline .figure-caption {
+    color: #262626;
+    font-weight: bold;
+}
+#intelligent-moving .figure--inline .figure-caption__counter {
+    color: #262626;
+    font-size: 2.4rem;
 }
 
 @media (min-width: 992px) {
-    #intelligent-moving .container {
+    #intelligent-moving:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 24px;
         background-image: url(../../images/sections/intelligent-moving/macbook.png);
-        background-position: bottom left;
-        background-size: auto 90%;
+        background-position: 20% bottom;
+        background-size: auto 80%;
         background-repeat: no-repeat;
+    }
+    #intelligent-moving .figure--inline {
+        min-width: 390px;
     }
 }

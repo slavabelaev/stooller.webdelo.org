@@ -4,6 +4,10 @@
             linear-gradient(45deg, #EEA849, #F46B45 45%, #F46B45 45%)
 }
 
+#amazon-web-services .d-flex-container {
+    padding: 48px;
+}
+
 @media (min-width: 768px) {
     #amazon-web-services {
         background:

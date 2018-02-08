@@ -1,6 +1,29 @@
 #project-works--number-of-files-in-total {
     padding-top: 48px;
 }
+#project-works--number-of-files-in-total h3 {
+    margin-top: 12px;
+    margin-bottom: 0;
+}
 #project-works--total-cost-miscalculation {
     background-color: #FFFFD3;
+    padding: 55px;
+}
+
+#project-works .link-dashed {
+    text-decoration: none;
+    color: #F16464;
+}
+#project-works .link-dashed>img {
+    margin-right: 24px;
+}
+#project-works .link-dashed>span {
+    border-bottom: #F47C79 1px dashed;
+}
+#project-works hr {
+    margin: 0;
+}
+#project-works .figure--inline {
+    padding: 2.25rem 1.125rem;
+    margin-bottom: 0;
 }

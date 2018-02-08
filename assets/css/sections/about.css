@@ -1,10 +1,27 @@
-#about--tablet-image {
-    background-image: url(../../images/sections/about/smartphone.png);
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
+#about:before {
+    content: "";
     display: block;
-    width: 100%;
-    height: 100%;
-    max-width: 380px;
+    position: absolute;
+    left: calc(50% + 200px);
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url(../../images/sections/about/smartphone.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: auto 90%;
+}
+
+
+#about .figure {
+    align-items: start;
+}
+#about .figure-img {
+    margin-top: 5px;
+}
+
+@media (min-width: 768px) {
+    #about>.container {
+        padding-top: 70px;
+    }
 }
