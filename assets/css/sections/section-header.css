@@ -44,6 +44,9 @@
     #header {
         background-color: #fff;
     }
+    #header.fixed-top {
+        position: static!important;
+    }
     header .navbar .form-inline {
         display: none;
     }
