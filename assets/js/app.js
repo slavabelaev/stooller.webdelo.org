@@ -61,7 +61,7 @@ if (window.innerWidth >= 768) {
         paddingTop: 0,
         paddingBottom: 0,
         fixedElements: '#header, .footer',
-        responsiveWidth: 0,
+        responsiveWidth: 768,
         responsiveHeight: 0,
         responsiveSlides: false,
         parallax: false,

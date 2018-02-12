@@ -122,25 +122,6 @@ header .navbar-brand {
     margin-right: 24px;
 }
 
-@media (min-width: 768px) {
-    .section {
-        height: initial!important;
-        min-height: 100vh;
-    }
-
-    h2, .h2 {
-        font-size: 36px;
-    }
-}
-@media (max-width: 768px) {
-	#header {
-		background-color: #fff;
-	}
-    header .navbar .form-inline {
-        display: none;
-    }
-}
-
 .timer {
     font-size: 36px;
     font-weight: 200;
@@ -957,4 +938,21 @@ header .navbar-brand {
 }
 .glyphicon-menu-up:before {
     content: "\e260";
+}
+
+
+@media (min-width: 768px) {
+    .section {
+        height: initial!important;
+        min-height: 100vh;
+    }
+
+    h2, .h2 {
+        font-size: 36px;
+    }
+}
+@media (max-width: 767px) {
+    .section h2 {
+        margin-top: 24px;
+    }
 }

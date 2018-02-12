@@ -1,18 +1,3 @@
-#about:before {
-    content: "";
-    display: block;
-    position: absolute;
-    left: calc(50% + 200px);
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background-image: url(../../images/sections/about/smartphone.png);
-    background-position: bottom left;
-    background-repeat: no-repeat;
-    background-size: auto 90%;
-}
-
-
 #about .figure {
     align-items: start;
 }
@@ -20,6 +5,21 @@
     margin-top: 5px;
 }
 
+@media (min-width: 1200px) {
+    #about:before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: calc(50% + 200px);
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-image: url(../../images/sections/about/smartphone.png);
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        background-size: auto 90%;
+    }
+}
 @media (min-width: 768px) {
     #about>.container {
         padding-top: 70px;

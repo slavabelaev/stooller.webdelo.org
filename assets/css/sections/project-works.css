@@ -1,13 +1,10 @@
-#project-works--number-of-files-in-total {
-    padding-top: 48px;
-}
 #project-works--number-of-files-in-total h3 {
     margin-top: 12px;
     margin-bottom: 0;
 }
 #project-works--total-cost-miscalculation {
     background-color: #FFFFD3;
-    padding: 55px;
+    padding: 24px;
 }
 
 #project-works .link-dashed {
@@ -23,10 +20,6 @@
 #project-works hr {
     margin: 0;
 }
-#list-of-number-of-files .figure--inline {
-    padding: 2.25rem 1.125rem;
-    margin-bottom: 0;
-}
 
 #list-of-summary {
     margin-bottom: 60px;
@@ -36,12 +29,30 @@
     margin-bottom: 32px;
 }
 
-@media (min-width: 1200px) {
-    #project-works--number-of-files-in-total {
-        padding-right: 60px;
-    }
+#list-of-number-of-files .figure--inline {
+    padding: 1.125rem;
+    margin-bottom: 0;
+}
 
+@media (min-width: 1200px) {
     #project-works--schema {
         margin-left: -36px;
+    }
+
+    #list-of-number-of-files .figure--inline {
+        padding: 2.25rem 1.125rem;
+    }
+
+    #project-works--number-of-files-in-total {
+        padding-top: 48px;
+    }
+    #project-works--total-cost-miscalculation {
+        padding: 55px;
+    }
+}
+
+@media (min-width: 992px) {
+    #project-works--number-of-files-in-total {
+        padding-right: 60px;
     }
 }

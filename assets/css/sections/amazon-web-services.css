@@ -4,14 +4,14 @@
             linear-gradient(45deg, #EEA849, #F46B45 45%, #F46B45 45%)
 }
 
-#amazon-web-services .d-flex-container {
-    padding: 48px;
-}
-
 #amazon-web-services .country-name {
     font-size: 2.8rem;
     margin-bottom: 1rem;
     display: block;
+}
+
+#web-services-features {
+    margin-bottom: 24px;
 }
 
 @media (min-width: 768px) {
@@ -26,5 +26,8 @@
 @media (min-width: 1200px) {
     #amazon-web-services .country-name {
         margin-left: -48px;
+    }
+    #amazon-web-services .d-flex-container {
+        padding: 48px;
     }
 }

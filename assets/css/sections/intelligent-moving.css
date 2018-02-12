@@ -3,7 +3,7 @@
 }
 #intelligent-moving .figure--inline {
     background-color: #FFFAE3;
-    padding: 36px 24px;
+    padding: 24px;
     display: flex;
     max-width: 390px;
     margin: 0 auto;
@@ -18,6 +18,9 @@
 }
 
 @media (min-width: 992px) {
+    #intelligent-moving .figure--inline {
+        padding: 36px 24px;
+    }
     #intelligent-moving:before {
         content: "";
         position: absolute;
