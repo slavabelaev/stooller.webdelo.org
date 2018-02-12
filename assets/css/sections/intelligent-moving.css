@@ -1,7 +1,12 @@
+#intelligent-moving .container {
+    z-index: 1;
+}
 #intelligent-moving .figure--inline {
     background-color: #FFFAE3;
-    padding: 24px 18px;
-    display: inline-flex;
+    padding: 36px 24px;
+    display: flex;
+    max-width: 390px;
+    margin: 0 auto;
 }
 #intelligent-moving .figure--inline .figure-caption {
     color: #262626;
@@ -24,8 +29,5 @@
         background-position: 20% bottom;
         background-size: auto 80%;
         background-repeat: no-repeat;
-    }
-    #intelligent-moving .figure--inline {
-        min-width: 390px;
     }
 }

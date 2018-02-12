@@ -8,11 +8,23 @@
     padding: 48px;
 }
 
+#amazon-web-services .country-name {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
 @media (min-width: 768px) {
     #amazon-web-services {
         background:
                 url(../../images/sections/amazon-web-services/lines.svg) repeat-x center center,
                 linear-gradient(to right, transparent 50%, #F46B45 50%);
 
+    }
+}
+
+@media (min-width: 1200px) {
+    #amazon-web-services .country-name {
+        margin-left: -48px;
     }
 }

@@ -23,7 +23,25 @@
 #project-works hr {
     margin: 0;
 }
-#project-works .figure--inline {
+#list-of-number-of-files .figure--inline {
     padding: 2.25rem 1.125rem;
     margin-bottom: 0;
+}
+
+#list-of-summary {
+    margin-bottom: 60px;
+}
+#list-of-summary .figure--inline {
+    padding: 0;
+    margin-bottom: 32px;
+}
+
+@media (min-width: 1200px) {
+    #project-works--number-of-files-in-total {
+        padding-right: 60px;
+    }
+
+    #project-works--schema {
+        margin-left: -36px;
+    }
 }
