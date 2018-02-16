@@ -199,33 +199,69 @@
             <link rel="stylesheet" href="assets/css/sections/google-services.css">
             <div class="container d-flex align-items-stretch">
                 <div class="row">
+                    <div class="col-sm-6 col-xl-4 p-4 align-self-center"></div>
+                    <div class="col-sm-6 col-xl-8 p-0">
+                        <div class="google-service" data-menu-item=".google-directions">
+                            <div id="google-map-directions" class="map"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="google-services" class="section d-flex align-items-stretch">
+            <link rel="stylesheet" href="assets/css/sections/google-services.css">
+            <div class="container d-flex align-items-stretch">
+                <div class="row">
+                    <div class="col-sm-6 col-xl-4 p-4 align-self-center"></div>
+                    <div class="col-sm-6 col-xl-8 p-0">
+                        <div class="google-service" data-menu-item=".google-places">
+                            <div id="google-map-places" class="map"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="google-services" class="section d-flex align-items-stretch">
+            <link rel="stylesheet" href="assets/css/sections/google-services.css">
+            <div class="container d-flex align-items-stretch">
+                <div class="row">
                     <div class="col-sm-6 col-xl-4 p-4 align-self-center">
-                        <h2 class="text-left">Google services</h2>
-                        <ol class="list-of-numeric-items">
-                            <li class="active">
-                                <div class="list-item-heading">Directions API</div>
-                                <p>Для рассчета расхода топлива, необходимо получить данные  о расстоянии, времени пути и пробках.</p>
-                            </li>
-                            <li>
-                                <div class="list-item-heading">Places API</div>
-                                <p></p>
-                            </li>
-                            <li>
-                                <div class="list-item-heading">Calendar API</div>
-                                <p></p>
-                            </li>
-                            <li>
-                                <div class="list-item-heading">Maps API</div>
-                                <p></p>
-                            </li>
-                            <li>
-                                <div class="list-item-heading">Autocomplete API</div>
-                                <p></p>
-                            </li>
-                        </ol>
+
                     </div>
                     <div class="col-sm-6 col-xl-8 p-0">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d2196.529027921397!2d145.03300735948557!3d-37.82414483300125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x6ad6424667099539%3A0x1c045678462e38f0!2zSGF3dGhvcm4sIFZJQywgMzEyMiwg0JDQstGB0YLRgNCw0LvQuNGP!3m2!1d-37.8222114!2d145.0328017!4m5!1s0x6ad642390570a5c1%3A0x5045675218cd8f0!2z0KXQvtGC0L7RgNC9LCDQktC40LrRgtC-0YDQuNGPIDMxMjIsINCQ0LLRgdGC0YDQsNC70LjRjw!3m2!1d-37.826!2d145.034!5e0!3m2!1sru!2s!4v1509011251050" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <div id="google-calendar" class="google-service" data-menu-item=".google-calendar">
+                            <img src="assets/images/sections/maps/GoogleCalendar.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="google-services" class="section d-flex align-items-stretch">
+            <link rel="stylesheet" href="assets/css/sections/google-services.css">
+            <div class="container d-flex align-items-stretch">
+                <div class="row">
+                    <div class="col-sm-6 col-xl-4 p-4 align-self-center"></div>
+                    <div class="col-sm-6 col-xl-8 p-0">
+                        <div class="google-service" data-menu-item=".google-maps">
+                            <div id="google-maps" class="map"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="google-services" class="section d-flex align-items-stretch">
+            <link rel="stylesheet" href="assets/css/sections/google-services.css">
+            <div class="container d-flex align-items-stretch">
+                <div class="row">
+                    <div class="col-sm-6 col-xl-4 p-4 align-self-center">
+
+                    </div>
+                    <div class="col-sm-6 col-xl-8 p-0">
+                        <div id="google-autocomplete" class="google-service" data-menu-item=".google-autocomplete">
+                            <video id="autocomplete-video" loop muted preload="none">
+                                <source src="assets/images/sections/maps/GoogleAutocomplete.mov">
+                            </video>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -806,6 +842,32 @@
             </div>
         </section>
     </main>
+    <div class="google-services-menu">
+        <h2 class="text-left">Google services</h2>
+        <ol class="list-of-numeric-items">
+            <li class="active google-directions">
+                <div class="list-item-heading">Directions API</div>
+                <p>Сервис дает нам информацию о расстоянии, времени пути и пробках. На это соновании мы расчитываем расход топлива для выбранного маршрута и формируем цену транспортировки.</p>
+            </li>
+            <li class="google-places">
+                <div class="list-item-heading">Places API</div>
+                <p>Для удобства клиентов, маркеры выводятся по точным адресам переезда. По полученым координатам определяется зона обслужения сервисом.</p>
+            </li>
+            <li class="google-calendar">
+                <div class="list-item-heading">Calendar API</div>
+                <p>В праздничный день переезд будет стоить дороже. Calendar API позволяет определить является ли выбранный день праздничным.</p>
+            </li>
+            <li class="google-maps">
+                <div class="list-item-heading">Polygon API</div>
+                <p>Зоны обслуживания сервиса выделены полигоном. Polygon API дает возможность убедиться, что выбранные адреса находятся в зоне обслуживания.</p>
+            </li>
+            <li class="google-autocomplete">
+                <div class="list-item-heading">Autocomplete API</div>
+                <p>Мы получаем точный адрес
+                    С целью точнее определить положение адресов переезда, для ввода адреса используется сервис. Это помогает также избежать ошибок.</p>
+            </li>
+        </ol>
+    </div>
 
 <!-- jQuery -->
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
@@ -813,6 +875,7 @@
 <script src="node_modules/fullpage.js/dist/jquery.fullpage.min.js"></script>
 
 <script src="node_modules/snapsvg/dist/snap.svg-min.js"></script>
+<script src="assets/js/maps.js"></script>
 
 <script type="text/javascript" src="node_modules/gsap/src/uncompressed/TweenMax.js"></script>
 <script type="text/javascript" src="assets/js/plugin/CustomEase.js"></script>
@@ -827,5 +890,8 @@
 <script src="node_modules/tether/dist/js/tether.min.js"></script>
 <!-- Bootstrap 4 (UI) — https://github.com/twbs/bootstrap/tree/v4-dev -->
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnlxZGuglsYc6aJSulm-IVQLcnhGcf_Jk&callback=initMap&libraries=places&language=en">
+</script>
 </body>
 </html>

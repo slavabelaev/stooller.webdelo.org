@@ -64,7 +64,7 @@ if (window.innerWidth >= 768) {
         responsiveWidth: 768,
         responsiveHeight: 0,
         responsiveSlides: false,
-        parallax: false,
+        parallax: true,
         parallaxOptions: {type: 'reveal', percentage: 62, property: 'translate'},
 
         //Custom selectors
@@ -74,7 +74,9 @@ if (window.innerWidth >= 768) {
         lazyLoading: true,
 
         //events
-        onLeave: function(index, nextIndex, direction){},
+        onLeave: function(index, nextIndex, direction){
+            googleServices(nextIndex, direction);
+        },
         afterLoad: function(anchorLink, index){},
         afterRender: function(){},
         afterResize: function(){},
@@ -82,4 +84,36 @@ if (window.innerWidth >= 768) {
         afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
         onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
     });
+}
+
+function googleServices(nextIndex, direction) {
+    if ( nextIndex >= 4 && nextIndex <=10 ) {
+        if ( nextIndex === 5 && direction === 'down' ) {
+            $('.google-services-menu').animate({ top: '50%' }, 50, function () {
+                $(this).addClass('active');
+            });
+        }
+        if ( nextIndex === 4 && direction === 'up' ) {
+            $('.google-services-menu').animate({top: '150%'}, 50, function () {
+                $(this).removeClass('active');
+            });
+        }
+
+        if ( nextIndex === 9 && direction === 'up' ) {
+            $('.google-services-menu').animate({ top: '50%' }, 50, function () {
+                $(this).addClass('active');
+            });
+        }
+        if ( nextIndex === 10 && direction === 'down' ) {
+            $('.google-services-menu').animate({ top: '-150%' }, 50, function () {
+                $(this).removeClass('active');
+            });
+        }
+        if ( nextIndex === 9 ) {
+            $('#autocomplete-video').get(0).play();
+        }
+        $('.google-services-menu ol li').removeClass('active');
+        $( $('.section').eq(nextIndex-1).find('.google-service').data('menu-item') ).addClass('active');
+        console.log($('.section').eq(nextIndex-1).find('.google-service').data('menu-item'));
+    }
 }

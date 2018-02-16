@@ -46,6 +46,66 @@ h2.h1 {
     margin-right: 20px;
 }
 
+.google-service {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.map {
+    height: 100%;
+}
+#google-calendar img,
+.google-service video {
+    height: 100%;
+}
+#intelligent-moving {
+    z-index: 10;
+    background-color: #fafafa;
+}
+
+.google-services-menu {
+    position: fixed;
+    left: 10%;
+    margin-top: -183px;
+    width: 25%;
+    opacity: 0;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
+    transition: 500ms;
+    z-index: -1;
+}
+
+.google-services-menu.active {
+    top: 50%;
+    z-index: 1;
+    opacity: 1;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+
+.google-services-menu ol.list-of-numeric-items {
+    padding-left: 0px;
+}
+
+.google-services-menu ol.list-of-numeric-items>li {
+    height: 30px;
+    overflow: hidden;
+    padding-left: 52px;
+    transition: 500ms;
+}
+.google-services-menu ol.list-of-numeric-items>li.active {
+    height: 160px;
+}
+.google-services-menu ol.list-of-numeric-items>li:before {
+    left: 0;
+}
+
 
 ol.list-of-numeric-items {
     counter-reset: myCounter;
