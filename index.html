@@ -195,7 +195,7 @@
                 </div>
             </div>
         </section>
-        <section id="google-services" class="section d-flex align-items-stretch">
+        <section id="google-services-directions" class="section d-flex align-items-stretch">
             <link rel="stylesheet" href="assets/css/sections/google-services.css">
             <div class="container d-flex align-items-stretch">
                 <div class="row">
@@ -208,7 +208,7 @@
                 </div>
             </div>
         </section>
-        <section id="google-services" class="section d-flex align-items-stretch">
+        <section id="google-services-places" class="section d-flex align-items-stretch">
             <link rel="stylesheet" href="assets/css/sections/google-services.css">
             <div class="container d-flex align-items-stretch">
                 <div class="row">
@@ -221,7 +221,7 @@
                 </div>
             </div>
         </section>
-        <section id="google-services" class="section d-flex align-items-stretch">
+        <section id="google-services-calendar" class="section d-flex align-items-stretch">
             <link rel="stylesheet" href="assets/css/sections/google-services.css">
             <div class="container d-flex align-items-stretch">
                 <div class="row">
@@ -236,7 +236,7 @@
                 </div>
             </div>
         </section>
-        <section id="google-services" class="section d-flex align-items-stretch">
+        <section id="google-services-maps" class="section d-flex align-items-stretch">
             <link rel="stylesheet" href="assets/css/sections/google-services.css">
             <div class="container d-flex align-items-stretch">
                 <div class="row">
@@ -249,7 +249,7 @@
                 </div>
             </div>
         </section>
-        <section id="google-services" class="section d-flex align-items-stretch">
+        <section id="google-services-autocomplete" class="section d-flex align-items-stretch">
             <link rel="stylesheet" href="assets/css/sections/google-services.css">
             <div class="container d-flex align-items-stretch">
                 <div class="row">
@@ -734,24 +734,10 @@
             <div class="container d-flex align-items-stretch">
                 <div class="row align-items-center">
                     <div class="col-md-6 col-xl-4 p-4">
-                        <h2 class="h1 text-left">Amazon Web Services</h2>
-                        <ol class="list-of-numeric-items">
-                            <li class="active">
-                                <div class="list-item-heading">Amazon EC2</div>
-                                <p>Сервис Stooller обслуживает клиентов на двух континентах. От физического расположения сервера, зависит скорость доступа клиентов. После правильной настройки Amazon EC2 все клиенты получают лучший доступ к сервису, независимо от своего географического положения.</p>
-                            </li>
-                            <li>
-                                <div class="list-item-heading">Amazon SES</div>
-                                <p></p>
-                            </li>
-                            <li>
-                                <div class="list-item-heading">Amazon RDS</div>
-                                <p></p>
-                            </li>
-                        </ol>
+
                     </div>
                     <div class="col-md-6 col-xl-8 align-self-stretch bg-orange p-4 text-white">
-                        <div class="d-flex h-100 align-items-center">
+                        <div class="d-flex h-100 align-items-center amazon-service" data-menu-item=".amazon-ec">
                             <div class="d-flex-container">
                                 <div id="web-services-features" class="row align-items-center">
                                     <div class="col-xl-2"><span class="country-name">Чикаго</span></div>
@@ -786,32 +772,48 @@
             <div class="container d-flex align-items-stretch">
                 <div class="row align-items-center">
                     <div class="col-md-6 col-xl-4 p-4">
-                        <h2 class="h1 text-left">Amazon Web Services</h2>
-                        <ol class="list-of-numeric-items">
-                            <li>
-                                <div class="list-item-heading">Amazon EC2</div>
-                                <p></p>
-                            </li>
-                            <li class="active">
-                                <div class="list-item-heading">Amazon SES</div>
-                                <p>Для повышения эффективности e-mail рассылки, настроен сервис Amazon SES. Это техническое решение повывает надежность рассылки, масштабируемость.</p>
-                            </li>
-                            <li>
-                                <div class="list-item-heading">Amazon RDS</div>
-                                <p></p>
-                            </li>
-                            <li>
-                                <div class="list-item-heading">Maps API</div>
-                                <p></p>
-                            </li>
-                            <li>
-                                <div class="list-item-heading">Autocomplete API</div>
-                                <p></p>
-                            </li>
-                        </ol>
+
                     </div>
                     <div class="col-md-6 col-xl-8 align-self-stretch bg-green text-white p-4">
-                        <div class="d-flex align-items-center h-100">
+                        <div class="d-flex align-items-center h-100 amazon-service" data-menu-item=".amazon-ses">
+                            <div class="flex-content-container">
+                                <header>
+                                    <h3>Письма дойдут до клиентов</h3>
+                                    <p class="lead">Для стартапа большой проблемой <br>становится узнаваемость и большая
+                                        <br>часть писем в итоге попадает в спам.</p>
+                                </header>
+
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <figure class="figure d-flex">
+                                            <img src="assets/images/sections/amazon-web-services-mailing/time-passing.svg" alt="" class="figure-img">
+                                            <figcaption class="figure-caption text-white">Настройка Amazon SES занимает
+                                                <br>немного времени</figcaption>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure class="figure d-flex">
+                                            <img src="assets/images/sections/amazon-web-services-mailing/server-settings.svg" alt="" class="figure-img">
+                                            <figcaption class="figure-caption text-white">Нет необходимости беспокоится о
+                                                <br>низкоуровневой настройке сервера для <br>рассылки.</figcaption>
+                                        </figure>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="amazon-web-services-rds" class="section d-flex">
+            <link rel="stylesheet" href="assets/css/sections/amazon-web-services-rds.css">
+            <div class="container d-flex align-items-stretch">
+                <div class="row align-items-center">
+                    <div class="col-md-6 col-xl-4 p-4">
+
+                    </div>
+                    <div class="col-md-6 col-xl-8 align-self-stretch bg-green text-white p-4">
+                        <div class="d-flex align-items-center h-100 amazon-service" data-menu-item=".amazon-rds">
                             <div class="flex-content-container">
                                 <header>
                                     <h3>Письма дойдут до клиентов</h3>
@@ -865,6 +867,24 @@
                 <div class="list-item-heading">Autocomplete API</div>
                 <p>Мы получаем точный адрес
                     С целью точнее определить положение адресов переезда, для ввода адреса используется сервис. Это помогает также избежать ошибок.</p>
+            </li>
+        </ol>
+    </div>
+
+    <div class="amazon-web-services-menu">
+        <h2 class="h1 text-left">Amazon Web Services</h2>
+        <ol class="list-of-numeric-items">
+            <li class="active amazon-ec">
+                <div class="list-item-heading">Amazon EC2</div>
+                <p>Сервис Stooller обслуживает клиентов на двух континентах. От физического расположения сервера, зависит скорость доступа клиентов. После правильной настройки Amazon EC2 все клиенты получают лучший доступ к сервису, независимо от своего географического положения.</p>
+            </li>
+            <li class="amazon-ses">
+                <div class="list-item-heading">Amazon SES</div>
+                <p>Для повышения эффективности e-mail рассылки, настроен сервис Amazon SES. Это техническое решение повывает надежность рассылки, масштабируемость.</p>
+            </li>
+            <li class="amazon-rds">
+                <div class="list-item-heading">Amazon RDS</div>
+                <p>Надежность в хранении данных и высокая скорость доступа к данным были одним из главных приоритетов при разработке Stooller. После настройки Amazon RDS сервис получил масштабируемую и быструю Базу Данных. </p>
             </li>
         </ol>
     </div>

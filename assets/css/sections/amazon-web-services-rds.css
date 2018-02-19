@@ -1,0 +1,57 @@
+#amazon-web-services-rds {
+    position: relative;
+    overflow: hidden;
+}
+
+#amazon-web-services-rds .figure {
+    margin-bottom: 28px;
+}
+#amazon-web-services-rds .figure-img {
+    width: 40px;
+    margin-right: 24px;
+}
+#amazon-web-services-rds .figure-caption {
+    font-size: 1.25rem;
+}
+
+.flex-content-container header {
+    margin-bottom: 60px;
+}
+.flex-content-container h3 {
+    margin-bottom: 12px;
+}
+
+@media (min-width: 768px) {
+}
+@media (min-width: 1200px) {
+    #amazon-web-services-rds:after {
+        content: "";
+        display: block;
+        position: absolute;
+        right: -200px;
+        width: 550px;
+        height: 455px;
+        bottom: 0;
+        top: -150px;
+        margin: auto;
+        background-image: url(../../images/sections/amazon-web-services-mailing/email.svg);
+        background-size: 100%;
+        transform: rotate(-15deg);
+    }
+    .flex-content-container {
+        padding: 48px;
+    }
+
+    #amazon-web-services-rds:before {
+        content: "";
+        position: absolute;
+        right: 0;
+        left: 50%;
+        top: 0;
+        bottom: 0;
+    }
+    #amazon-web-services-rds:before,
+    #amazon-web-services-rds .bg-green {
+        background-image: linear-gradient(to top, #64A944 50%, #73CF8D)
+    }
+}

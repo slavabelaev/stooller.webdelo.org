@@ -3,7 +3,11 @@
 }
 
 @media (min-width: 768px) {
-    #google-services .container>.row {
+    #google-services-directions .container>.row,
+    #google-services-places .container>.row,
+    #google-services-calendar .container>.row,
+    #google-services-maps .container>.row,
+    #google-services-autocomplete .container>.row {
         width: 100%;
     }
 }

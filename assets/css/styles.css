@@ -64,7 +64,8 @@ h2.h1 {
     background-color: #fafafa;
 }
 
-.google-services-menu {
+.google-services-menu,
+.amazon-web-services-menu {
     position: fixed;
     left: 10%;
     margin-top: -183px;
@@ -78,7 +79,8 @@ h2.h1 {
     z-index: -1;
 }
 
-.google-services-menu.active {
+.google-services-menu.active,
+.amazon-web-services-menu.active {
     top: 50%;
     z-index: 1;
     opacity: 1;
@@ -89,20 +91,24 @@ h2.h1 {
     transition: 1s;
 }
 
-.google-services-menu ol.list-of-numeric-items {
+.google-services-menu ol.list-of-numeric-items,
+.amazon-web-services-menu ol.list-of-numeric-items {
     padding-left: 0px;
 }
 
-.google-services-menu ol.list-of-numeric-items>li {
+.google-services-menu ol.list-of-numeric-items>li,
+.amazon-web-services-menu ol.list-of-numeric-items>li {
     height: 30px;
     overflow: hidden;
     padding-left: 52px;
     transition: 500ms;
 }
-.google-services-menu ol.list-of-numeric-items>li.active {
+.google-services-menu ol.list-of-numeric-items>li.active,
+.amazon-web-services-menu ol.list-of-numeric-items>li.active {
     height: 160px;
 }
-.google-services-menu ol.list-of-numeric-items>li:before {
+.google-services-menu ol.list-of-numeric-items>li:before,
+.amazon-web-services-menu ol.list-of-numeric-items>li:before {
     left: 0;
 }
 

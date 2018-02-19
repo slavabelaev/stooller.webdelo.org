@@ -8,11 +8,16 @@ if (window.innerWidth >= 768) {
             'url-about',
             'url-project-works',
             'url-intelligent-moving',
-            'url-google-services',
+            'url-google-services-directions',
+            'url-google-services-places',
+            'url-google-services-calendar',
+            'url-google-services-maps',
+            'url-google-services-autocomplete',
             'url-twilio-sms-alerts',
             'url-stripe-payments',
             'url-amazon-web-services',
-            'url-amazon-web-services-mailing'
+            'url-amazon-web-services-mailing',
+            'url-amazon-web-services-rds'
         ],
         navigation: false,
         navigationPosition: 'right',
@@ -76,6 +81,7 @@ if (window.innerWidth >= 768) {
         //events
         onLeave: function(index, nextIndex, direction){
             googleServices(nextIndex, direction);
+            amazonServices(nextIndex, direction);
         },
         afterLoad: function(anchorLink, index){},
         afterRender: function(){},
@@ -115,5 +121,24 @@ function googleServices(nextIndex, direction) {
         $('.google-services-menu ol li').removeClass('active');
         $( $('.section').eq(nextIndex-1).find('.google-service').data('menu-item') ).addClass('active');
         console.log($('.section').eq(nextIndex-1).find('.google-service').data('menu-item'));
+    }
+}
+
+function amazonServices(nextIndex, direction) {
+    if ( nextIndex >= 11 ) {
+        if ( nextIndex === 12 && direction === 'down' ) {
+            $('.amazon-web-services-menu').animate({ top: '50%' }, 50, function () {
+                $(this).addClass('active');
+            });
+        }
+        if ( nextIndex === 11 && direction === 'up' ) {
+            $('.amazon-web-services-menu').animate({top: '150%'}, 50, function () {
+                $(this).removeClass('active');
+            });
+        }
+
+        $('.amazon-web-services-menu ol li').removeClass('active');
+        $( $('.section').eq(nextIndex-1).find('.amazon-service').data('menu-item') ).addClass('active');
+        console.log($('.section').eq(nextIndex-1).find('.amazon-service').data('menu-item'));
     }
 }
