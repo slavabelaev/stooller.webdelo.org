@@ -15,9 +15,13 @@
         top: 0;
         bottom: 0;
         background-image: url(../../images/sections/about/smartphone.png);
-        background-position: bottom left;
+        background-position: 50% 100vh;
         background-repeat: no-repeat;
         background-size: auto 90%;
+        transition: .7s;
+    }
+    #about.active.fp-completely:before {
+        background-position: 50% bottom;
     }
 }
 @media (min-width: 768px) {

@@ -29,8 +29,12 @@
         top: 0;
         bottom: 24px;
         background-image: url(../../images/sections/intelligent-moving/macbook.png);
-        background-position: 20% bottom;
-        background-size: auto 80%;
+        background-position: -100vw bottom;
+        background-size: auto 75%;
         background-repeat: no-repeat;
+        transition: .7s;
+    }
+    #intelligent-moving.active.fp-completely:before {
+        background-position: 20% bottom;
     }
 }

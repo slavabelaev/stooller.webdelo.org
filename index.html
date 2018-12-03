@@ -15,8 +15,18 @@
     <!-- Fullpage.js (landing script) — https://github.com/alvarotrigo/fullPage.js -->
     <!-- <link rel="stylesheet" href="node_modules/fullpage.js/dist/jquery.fullpage.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.min.css">
+    <style>
+        body {
+            transition: opacity 1s;
+        }
+        body.unvisibility { 
+            opacity: 0; 
+            transition: none;
+        }
+    </style>
 </head>
-<body>
+<body class="unvisibility">
+
     <header id="header" class="fixed-top">
         <nav class="navbar container navbar-light">
             <a class="navbar-brand" href="#"><img src="assets/images/logo.svg" alt="Webdelo logo"></a>
@@ -26,7 +36,7 @@
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <button class="btn btn-outline-primary btn-lg bg-white my-2 my-sm-0" type="submit">На главную</button>
+                <a target="_blank" href="https://stooller.com/" class="btn btn-outline-primary btn-lg bg-white my-2 my-sm-0">На главную</a>
             </form>
         </nav>
     </header>
@@ -40,7 +50,7 @@
                 </header>
             </div>
         </section>
-        <section id="about" class="section bg-light d-flex align-items-center">
+        <section id="about" class="section bg-light">
             <link rel="stylesheet" href="assets/css/sections/about.css">
             <div class="container">
                 <div class="row">
@@ -98,7 +108,7 @@
                 </div>
             </div>
         </section>
-        <section id="project-works" class="section d-flex align-items-center">
+        <section id="project-works" class="section">
             <link rel="stylesheet" href="assets/css/sections/project-works.css">
             <div class="container">
                 <h2>Проект работ</h2>
@@ -176,9 +186,9 @@
                 </div>
             </div>
         </section>
-        <section id="intelligent-moving" class="section bg-light d-flex align-items-center">
+        <section id="intelligent-moving" class="section bg-light">
             <link rel="stylesheet" href="assets/css/sections/intelligent-moving.css">
-            <div class="container p-4">
+            <div class="container">
                 <h2>Интеллектуальный переезд</h2>
                 <div class="row">
                     <div class="col-md-4 col-lg-6 d-flex align-items-start justify-content-center justify-content-md-end">
@@ -261,14 +271,14 @@
                     <div class="col-sm-6 col-xl-8 p-0">
                         <div id="google-autocomplete" class="google-service" data-menu-item=".google-autocomplete">
                             <video id="autocomplete-video" loop muted preload="none">
-                                <source src="assets/images/sections/maps/GoogleAutocomplete.mov">
+                                <source src="assets/images/sections/maps/GoogleAutocomplete.mp4">
                             </video>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="twilio-sms-alerts" class="section bg-light d-flex align-items-end">
+        <section id="twilio-sms-alerts" class="section bg-light">
             <link rel="stylesheet" href="assets/css/sections/twilio-sms-alerts.css">
             <div class="container">
                 <h2>Twillio SMS оповещения</h2>
@@ -415,39 +425,33 @@
                 </div>
             </div>
         </section>
-        <section id="stripe-payments" class="section d-flex align-items-center">
+        <section id="stripe-payments" class="section">
             <link rel="stylesheet" href="assets/css/sections/stripe-payments.css">
             <div class="container">
                 <h2>Stripe платежи. Как это работает</h2>
                 <picture id="stripe-payments-schema" class="d-block text-center">
                     <div class="row d-block d-sm-none">
                         <div class="col-md-12 text-center">
-                            <button class="payments-play btn btn-outline-success btn-lg w-50">
-                                <span class="glyphicon glyphicon-play"></span>
+                            <button class="payments-play btn btn-outline-success btn-lg">
                                 Play
                             </button>
-                            <button class="payments-pause btn btn-outline-secondary btn-lg w-50">
-                                <span class="glyphicon glyphicon-pause"></span>
+                            <button class="payments-pause btn btn-outline-secondary btn-lg">
                                 Pause
                             </button>
-                            <button class="payments-repeat btn btn-outline-secondary btn-lg w-50">
-                                <span class="glyphicon glyphicon-repeat"></span>
+                            <button class="payments-repeat btn btn-outline-secondary btn-lg">
                                 Repeat
                             </button>
                         </div>
                     </div>
                     <div class="row d-none d-sm-block">
                         <div class="col-md-12 text-center">
-                            <button class="payments-play btn btn-outline-success btn-lg w-25">
-                                <span class="glyphicon glyphicon-play"></span>
+                            <button class="payments-play btn btn-outline-success btn-lg">
                                 Play
                             </button>
-                            <button class="payments-pause btn btn-outline-secondary btn-lg w-25">
-                                <span class="glyphicon glyphicon-pause"></span>
+                            <button class="payments-pause btn btn-outline-secondary btn-lg">
                                 Pause
                             </button>
-                            <button class="payments-repeat btn btn-outline-secondary btn-lg w-25">
-                                <span class="glyphicon glyphicon-repeat"></span>
+                            <button class="payments-repeat btn btn-outline-secondary btn-lg">
                                 Repeat
                             </button>
                         </div>
@@ -731,7 +735,7 @@
                 </picture>
             </div>
         </section>
-        <section id="amazon-web-services" class="section d-flex">
+        <section id="amazon-web-services" class="section d-flex align-items-stretch">
             <link rel="stylesheet" href="assets/css/sections/amazon-web-services.css">
             <div class="container d-flex align-items-stretch">
                 <div class="row align-items-center">
@@ -769,10 +773,10 @@
                 </div>
             </div>
         </section>
-        <section id="amazon-web-services-mailing" class="section d-flex">
+        <section id="amazon-web-services-mailing" class="section d-flex align-items-stretch">
             <link rel="stylesheet" href="assets/css/sections/amazon-web-services-mailing.css">
             <div class="container d-flex align-items-stretch">
-                <div class="row align-items-center">
+                <div class="row w-100 align-items-center">
                     <div class="col-md-6 col-xl-4 p-4">
 
                     </div>
@@ -787,14 +791,14 @@
 
                                 <ul class="list-unstyled">
                                     <li>
-                                        <figure class="figure d-flex">
+                                        <figure class="figure d-flex align-items-start">
                                             <img src="assets/images/sections/amazon-web-services-mailing/time-passing.svg" alt="" class="figure-img">
                                             <figcaption class="figure-caption text-white">Настройка Amazon SES занимает
                                                 <br>немного времени</figcaption>
                                         </figure>
                                     </li>
                                     <li>
-                                        <figure class="figure d-flex">
+                                        <figure class="figure d-flex align-items-start">
                                             <img src="assets/images/sections/amazon-web-services-mailing/server-settings.svg" alt="" class="figure-img">
                                             <figcaption class="figure-caption text-white">Нет необходимости беспокоится о
                                                 <br>низкоуровневой настройке сервера для <br>рассылки.</figcaption>
@@ -807,10 +811,10 @@
                 </div>
             </div>
         </section>
-        <section id="amazon-web-services-rds" class="section d-flex">
+        <section id="amazon-web-services-rds" class="section d-flex align-items-stretch">
             <link rel="stylesheet" href="assets/css/sections/amazon-web-services-rds.css">
             <div class="container d-flex align-items-stretch">
-                <div class="row align-items-center">
+                <div class="row w-100 align-items-center">
                     <div class="col-md-6 col-xl-4 p-4">
 
                     </div>
@@ -825,14 +829,14 @@
 
                                 <ul class="list-unstyled">
                                     <li>
-                                        <figure class="figure d-flex">
+                                        <figure class="figure d-flex align-items-start">
                                             <img src="assets/images/sections/amazon-web-services-mailing/time-passing.svg" alt="" class="figure-img">
                                             <figcaption class="figure-caption text-white">Настройка Amazon SES занимает
                                                 <br>немного времени</figcaption>
                                         </figure>
                                     </li>
                                     <li>
-                                        <figure class="figure d-flex">
+                                        <figure class="figure d-flex align-items-start">
                                             <img src="assets/images/sections/amazon-web-services-mailing/server-settings.svg" alt="" class="figure-img">
                                             <figcaption class="figure-caption text-white">Нет необходимости беспокоится о
                                                 <br>низкоуровневой настройке сервера для <br>рассылки.</figcaption>

@@ -28,13 +28,14 @@
         border-color: #fff;
     }
     .fp-viewing-url-section-header #header .navbar-brand>img {
-        filter: brightness(0%);
+        filter: brightness(0);
     }
     .fp-viewing-url-section-header #header .navbar-brand>img {
-        filter: brightness(500%);
+        filter: brightness(0) invert(1);
     }
     .fp-viewing-url-section-header #header .stooller-logo {
         color: #fff;
+        transition: none!important;
     }
 }
 @media (max-width: 767px) {
