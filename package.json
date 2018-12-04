@@ -1,8 +1,59 @@
 {
   "name": "stooller",
   "version": "1.0.0",
-  "description": "",
+  "description": "Landing for «Stooller»",
+  "homepage": "https://belaevslava.github.io/stooller.webdelo.org/",
+  "previews": {
+    "directory": "previews",
+    "images": [
+      {
+        "path": "index.png",
+        "title": "Index"
+      },
+      {
+        "path": "about.png",
+        "title": "About"
+      },
+      {
+        "path": "intellectual_relocation.png",
+        "title": "Intellectual Relocation"
+      },
+      {
+        "path": "project_work.png",
+        "title": "Project Work"
+      },
+      {
+        "path": "google_services_calendar.png",
+        "title": "Google Services Calendar"
+      },
+      {
+        "path": "google_services_autocomplete.png",
+        "title": "Google Services Autocomplete"
+      },
+      {
+        "path": "twilio_sms_alerts.png",
+        "title": "Twilio SMS Alerts"
+      },
+      {
+        "path": "stripe_payments.png",
+        "title": "Stripe Payments"
+      },
+      {
+        "path": "amazon_web_services.png",
+        "title": "Amazon Web Services"
+      },
+      {
+        "path": "amazon_web_services_mailing.png",
+        "title": "Amazon Web Services Mailing"
+      },
+      {
+        "path": "amazon_web_services_rds.png",
+        "title": "Amazon Web Services RDS"
+      }
+    ]
+  },
   "main": "index.js",
+  ""
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -1006,28 +1006,6 @@ header .navbar-brand {
     content: "\e260";
 }
 
-.section li,
-.section picture,
-.section svg,
-.section video {
-    opacity: 0;
-    transition: opacity .7s;
-}
-.section.active.fp-completely li,
-.section.active.fp-completely picture,
-.section.active.fp-completely svg,
-.section.active.fp-completely video {
-    opacity: 1;
-}
-
-li:nth-child(2) { transition-delay: .5s; }
-li:nth-child(3) { transition-delay: 1s; }
-li:nth-child(4) { transition-delay: 1.5s; }
-li:nth-child(5) { transition-delay: 2s; }
-li:nth-child(6) { transition-delay: 2.5s; }
-li:nth-child(7) { transition-delay: 3s; }
-li:nth-child(8) { transition-delay: 3.5s; }
-
 
 @media (min-width: 768px) {
     .section {
@@ -1043,6 +1021,28 @@ li:nth-child(8) { transition-delay: 3.5s; }
     h2, .h2 {
         font-size: 36px;
     }
+
+    .section li,
+    .section picture,
+    .section svg,
+    .section video {
+        opacity: 0;
+        transition: opacity .7s;
+    }
+    .section.active.fp-completely li,
+    .section.active.fp-completely picture,
+    .section.active.fp-completely svg,
+    .section.active.fp-completely video {
+        opacity: 1;
+    }
+
+    li:nth-child(2) { transition-delay: .5s; }
+    li:nth-child(3) { transition-delay: 1s; }
+    li:nth-child(4) { transition-delay: 1.5s; }
+    li:nth-child(5) { transition-delay: 2s; }
+    li:nth-child(6) { transition-delay: 2.5s; }
+    li:nth-child(7) { transition-delay: 3s; }
+    li:nth-child(8) { transition-delay: 3.5s; }
 }
 @media (max-width: 767px) {
     .section h2 {
